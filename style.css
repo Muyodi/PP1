@@ -19,9 +19,9 @@ body {
 }
 
 
-header{
+header {
     background-color: rgb(208, 224, 178);
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -44,22 +44,23 @@ h1 {
 }
 
 #menu {
-    font-size: 120%;
-    letter-spacing: 3px;
+    font-size: 110%;
+    letter-spacing: 4px;
     list-style-type: none;
 }
 #menu > li {
     margin-bottom: 1em;
+    padding-left: 1rem;
 }
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #d61a1a;
 }
 nav {
     position: absolute;
-    background-color: rgb(58, 79, 92);
+    background-color: rgb(4, 15, 22);
     width: 100%;
     left: 0;
-    padding: 0 2rem;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -73,16 +74,29 @@ nav {
 }
 .nav-toggle-label {
     font-size: 2rem;
+    display: none;
 }
 /* main */
 main {
     background-color: rgb(196, 137, 137);
     
     flex: 1 0 auto;
-    margin-top: 45px;
+    margin-top: 47px;
 }
 /* footer */
 footer {
     background-color: antiquewhite;
 }
-
+/* tablet and larger screens*/
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding: 1rem;
+    }
+    #menu {
+        display:flex;
+    }
+}
