@@ -14,13 +14,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(151, 142, 137);
+    color: rgb(95, 81, 74);
     font-family:  sans-serif;
 }
 
 
 header {
-    background-color: rgb(208, 224, 178);
+    background-color: rgb(217, 239, 172);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -32,8 +32,8 @@ header {
     
 }
 header a {
-    text-decoration: navajowhite;
-    color: ivory;
+    text-decoration: rgb(217, 239, 172);
+    color: rgb(84, 84, 4);
 }
 
 h1 {
@@ -57,11 +57,11 @@ h1 {
 }
 nav {
     position: absolute;
-    background-color: rgb(4, 15, 22);
+    background-color: rgb(217, 239, 172);
     width: 100%;
     left: 1;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #ab0505;
     display: none;
     top: 100%;
 }
@@ -99,4 +99,12 @@ footer {
     #menu {
         display:flex;
     }
+}
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+main {
+    margin-top: 79px;
 }
