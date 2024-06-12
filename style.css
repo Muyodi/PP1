@@ -39,6 +39,12 @@ h1 {
     letter-spacing: 1px;
     color: #4a0303;
 }
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
 /* main */
 main {
     background-color: rgb(196, 137, 137);
