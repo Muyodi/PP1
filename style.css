@@ -15,12 +15,17 @@ body {
     display: flex;
     flex-direction: column;
     color: rgb(226, 224, 223);
-    font-family: 'lato',sans-serif;
+    font-family: 'Lato' sans-serif;
 }
 
 
 header{
     background-color: rgb(207, 146, 33);
+    
+}
+
+h1 {
+    font-family: 'Segoe UI', sans-serif;
 }
 /* main */
 main {
