@@ -25,12 +25,19 @@ header{
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 2px #3a3a3a;
+    box-shadow: 0 3px 2px #4a0303;
     
+}
+header a {
+    text-decoration: navajowhite;
+    color: ivory;
 }
 
 h1 {
     font-family: 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #4a0303;
 }
 /* main */
 main {
