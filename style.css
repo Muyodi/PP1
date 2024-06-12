@@ -14,13 +14,18 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(226, 224, 223);
+    color: rgb(151, 142, 137);
     font-family:  sans-serif;
 }
 
 
 header{
-    background-color: rgb(207, 146, 33);
+    background-color: rgb(208, 224, 178);
+    padding: 0 1.5rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 2px #3a3a3a;
     
 }
 
@@ -29,7 +34,7 @@ h1 {
 }
 /* main */
 main {
-    background-color: lightblue;
+    background-color: rgb(196, 137, 137);
     
     flex: 1 0 auto;
 }
