@@ -82,11 +82,15 @@ main {
     
     flex: 1 0 auto;
     margin-top: 47px;
-    
+
 }
 /* footer */
-footer {
-    background-color: antiquewhite;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 /* tablet and larger screens*/
 @media screen and (min-width: 768px) {
