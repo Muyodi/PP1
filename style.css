@@ -81,11 +81,14 @@ main {
 
     flex: 1 0 auto;
     margin-top: 47px;
+    background: url("../PP1/images/hero-image/gym.jpg");
+    
 }
-#foto {
+
+#hero-image {
     height: 600%;
     width: 100%;
-    background-color: #d61a1a;
+    background: url("../PP1/images/hero-image/gym.jpg");
 }
 
 
