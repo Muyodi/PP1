@@ -10,8 +10,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(39, 36, 34);
+    color: rgb(222, 141, 87);
     font-family:  sans-serif;
+    background-image: url(images/hero-image/pop.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
    
     
 }
