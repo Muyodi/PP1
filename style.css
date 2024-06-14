@@ -14,8 +14,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(95, 81, 74);
+    color: rgb(229, 93, 25);
     font-family:  sans-serif;
+   
+    
 }
 
 
@@ -81,14 +83,14 @@ main {
 
     flex: 1 0 auto;
     margin-top: 47px;
-    background: url("../PP1/images/hero-image/gym.jpg");
+    
     
 }
 
-#hero-image {
-    height: 600%;
-    width: 100%;
-    background: url("../PP1/images/hero-image/gym.jpg");
+#images-section {
+    background-image: url(images/hero-image/pop.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
 }
 
 
@@ -128,7 +130,7 @@ main {
 }
 @media  screen and (mid-width:992px) {
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 5px solid #3a3a3a;
     }
     
 }
