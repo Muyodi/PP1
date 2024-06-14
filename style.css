@@ -13,7 +13,7 @@ body {
     color: rgb(222, 141, 87);
     font-family:  sans-serif;
     background-image: url(images/hero-image/pop.jpg);
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-position: center center;
    
     
@@ -87,7 +87,7 @@ main {
 }
 
 #images-section {
-    background-image: url(images/hero-image/pop.jpg);
+    background-image: url(//images/hero-image/pop.jpg);
     background-repeat:no-repeat;
     background-position: center center;
 }
@@ -104,7 +104,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #e51111;
 }
 /* tablet and larger screens*/
 @media screen and (min-width: 768px) {
