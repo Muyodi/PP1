@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(222, 141, 87);
+    color: rgb(241, 227, 217);
     font-family:  sans-serif;
     background-image: url(images/hero-image/pop.jpg);
     background-repeat:repeat;
@@ -24,7 +24,7 @@ h1,h2,h3 {
     letter-spacing: 1px;
     color: #4a0303;
 }
-
+#reasons
 
 header {
     background-color: rgb(217, 239, 172);
@@ -104,7 +104,7 @@ main {
     padding-left: 20px;
 }
 #cover-text > h2, #cover-text > h3 {
-    color:aliceblue
+    color:rgb(61, 153, 233)
 }
 
 /* footer */
