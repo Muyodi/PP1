@@ -18,6 +18,12 @@ body {
    
     
 }
+h1,h2,h3 {
+    font-family: 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #4a0303;
+}
 
 
 header {
@@ -37,12 +43,7 @@ header a {
     color: rgb(84, 84, 4);
 }
 
-h1 {
-    font-family: 'Segoe UI', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #4a0303;
-}
+
 
 #menu {
     font-size: 110%;
@@ -90,8 +91,21 @@ main {
     background-image: url(//images/hero-image/pop.jpg);
     background-repeat:no-repeat;
     background-position: center center;
+    position:relative
 }
-
+#cover-text {
+    background-color: aliceblue;
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+#cover-text > h2, #cover-text > h3 {
+    
+}
 
 /* footer */
 #social-networks {
