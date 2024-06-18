@@ -84,7 +84,7 @@ nav {
     background-color: rgb(196, 236, 122);
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 2rem;
     box-shadow: 0 2px 2px #ab0505;
     display: none;
     top: 100%;
@@ -93,12 +93,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
-    color: red;
-    
-}
-#nav-toggle:checked~nav {
-    display: block;
+    width: 100%
 }
 
 #nav-toggle {
