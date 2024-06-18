@@ -107,7 +107,7 @@ nav {
 
 /* main */
 main {
-background-color: aqua;
+background-color: rgb(3, 32, 32);
     flex: 1 0 auto;
     margin-top: 40px;
 
