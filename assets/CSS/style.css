@@ -110,14 +110,14 @@ nav {
 main {
     background-color: rgb(3, 32, 32);
     width: 100%;
-    height: 1000px;
+    height: 1000px; 
 }
 
  #main-image {
     width: 100%;
     height: auto;
     background: url('/images/hero-image/gym-interior.jpg') no-repeat
-    center center; 
+    center center/cover; 
     
     
 }
