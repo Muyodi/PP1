@@ -43,6 +43,7 @@ h1 {
     text-align: center;
 
 }
+
 header {
     background-color: rgb(217, 239, 172);
     padding: 0 1rem;
@@ -50,6 +51,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -63,7 +67,7 @@ header a {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-    color: #140101;
+    color: #1c0202;
 }
 
 #menu > li {
@@ -77,15 +81,22 @@ header a {
 
 nav {
     position: absolute;
-    background-color: rgb(217, 239, 172);
+    background-color: rgb(196, 236, 122);
     width: 100%;
-    left: 1;
+    left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #ab0505;
     display: none;
     top: 100%;
 }
-
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: red;
+    
+}
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -103,7 +114,7 @@ nav {
 main {
 background-color: aqua;
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 40px;
 
 
 }
@@ -152,7 +163,7 @@ background-color: aqua;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding: 1rem;
+        padding-right: 1rem;
     }
 
     #menu {
@@ -175,9 +186,9 @@ main {
     right: 50px;
 }
 
-@media screen and (mid-width:992px) {
+@media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 5px solid #3a3a3a;
+        border-bottom: 2px solid #3a3a3a;
     }
 
 }
