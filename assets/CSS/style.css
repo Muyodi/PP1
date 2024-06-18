@@ -22,10 +22,11 @@ body {
 }
 
 h1 {
+    font-size: 210%;
     font-family: 'Oswald' , sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #140101;
+    color: #dc0707;
 }
 
 
@@ -46,9 +47,9 @@ h1 {
 
 header {
     background-color: rgb(217, 239, 172);
-    padding: 0 1rem;
+    padding: 2 1rem;
     position: fixed;
-    z-index: 99;
+    z-index: 100%;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
@@ -57,17 +58,17 @@ header {
 }
 
 header a {
-    text-decoration: rgb(217, 239, 172);
+    text-decoration: rgb(188, 232, 95);
    color: inherit;
 }
 
 
 
 #menu {
-    font-size: 110%;
+    font-size: 150%;
     letter-spacing: 4px;
     list-style-type: none;
-    color: #1c0202;
+    color: #3a1818;
 }
 
 #menu > li {
