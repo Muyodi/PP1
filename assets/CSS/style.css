@@ -118,20 +118,24 @@ main {
     height: auto;
     background: url('/images/hero-image/gym-interior.jpg') no-repeat
     center center/cover; 
+    /* position: relative; */
     
     
 }
 
 #cover-text {
     
-    background-color: yellow;
+    background-color: rgb(238, 238, 141);
     font-size: 130%;
-    position: absolute;
-    bottom: 30px;
+    position: absolute; 
+    bottom: 40px;
     width: 80%;
     height: 200px;
     padding-top: 40px;
-    padding-left: 20px;
+    padding-right: 20px; 
+}
+#cover-text > h2, #cover-text > h3 {
+    color: rgb(6, 39, 39);
 }
 
 
@@ -175,9 +179,9 @@ main {
 }
 
 
-#cover-text {
+ #cover-text {
     width: 300px;
-    right: 50px;
+    right: 50px; 
 }
 
 @media screen and (min-width: 992px) {
