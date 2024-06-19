@@ -146,10 +146,10 @@ main {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
-#image-cover-bg {
+ #image-cover-bg {
     background: url('assets/images/hero-image/pop.jpg') no-repeat 
     top center / cover;
-}
+} 
 
 
 /* footer */
