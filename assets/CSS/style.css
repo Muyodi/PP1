@@ -176,15 +176,15 @@ header {
 
 
 /* footer */
-  #social-networks {
+  .social-networks {
     text-align: center;
     padding: 30px 0;
     display: flex; 
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style-type: none; 
 } 
 
-  #social-networks i {
+  .social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #e51111;
