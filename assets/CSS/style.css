@@ -140,6 +140,19 @@ header {
     margin: 20px;
    }
 
+.titles {
+    padding: 15px 5px;
+    font-size: 2rem;
+}
+.reasons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
  /* #cover-text > h2, #cover-text > h3 {
     color: rgb(202, 72, 12);  */
 
