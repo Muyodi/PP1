@@ -49,7 +49,7 @@ header {
     background-color: rgb(217, 239, 172);
     padding: 2 1rem;
     position: fixed;
-    z-index: 100%;
+    z-index: 100;
     width: 100%;
     box-shadow: 0 2px 2px #e82525;
     display: flex;
@@ -113,31 +113,43 @@ main {
     height: 1000px; 
 }
 
- #main-image {
+#main-image {
     width: 100%;
+    z-index: 0;
     height: auto;
-    background: url('/images/hero-image/gym-interior.jpg') no-repeat
+    background: url('/images/hero-image/pop.jpg') no-repeat
     center center/cover; 
-    /* position: relative; */
-    
-    
+    position: relative;
 }
 
 #cover-text {
-    
-    background-color: rgb(238, 238, 195 7);
-    font-size: 130%;
+    z-index: 100000;
+    background-color: rgb(110, 110, 20);
+    font-size: auto;
     position: absolute; 
-    bottom: 40px;
-    width: 80%;
-    height: 200px;
-    padding-top: 40px;
-    padding-right: 10px; 
+    width: 100px;
+    height: 100px;
+    
 }
 #cover-text > h2, #cover-text > h3 {
     color: rgb(202, 72, 12);
 }
-
+#physical-benefits > div,
+#mental-benefits > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#benefits p {
+    padding: 0 20px;
+}
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+#image-cover-bg {
+    background: url('assets/images/hero-image/pop.jpg') no-repeat 
+    top center / cover;
+}
 
 
 /* footer */
@@ -179,7 +191,7 @@ main {
 }
 
 
-  #cover-text {
+#cover-text {
     width: 300px;
     right: 50px;  
 }
