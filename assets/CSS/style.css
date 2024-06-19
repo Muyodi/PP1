@@ -125,7 +125,7 @@ main {
 
 #cover-text {
     
-    background-color: rgb(238, 238, 141);
+    background-color: rgb(25, 25, 5);
     font-size: 130%;
     position: absolute; 
     bottom: 40px;
@@ -135,7 +135,7 @@ main {
     padding-right: 20px; 
 }
 #cover-text > h2, #cover-text > h3 {
-    color: rgb(6, 39, 39);
+    color: rgb(228, 238, 238);
 }
 
 
@@ -191,7 +191,7 @@ main {
 
 }
 
-/* #main-image{
+ #main-image {
     width: 100%;
     height: auto;
-} */
+} 
