@@ -135,18 +135,18 @@ main {
     padding-right: 20px; 
 }
 #cover-text > h2, #cover-text > h3 {
-    color: rgb(228, 238, 238);
+    color: rgb(202, 72, 12);
 }
 
 
 
 /* footer */
-#social-networks {
+ #social-networks {
     text-align: center;
     padding: 30px 0;
     display: flex; 
     justify-content: space-evenly;
-    list-style-type: none;
+    list-style-type: none; 
 }
 
  #social-networks i {
@@ -179,19 +179,20 @@ main {
 }
 
 
- #cover-text {
+  #cover-text {
     width: 300px;
-    right: 50px; 
+    right: 50px;  
 }
 
 @media screen and (min-width: 992px) {
+
     #menu a:hover {
         border-bottom: 2px solid #3a3a3a;
     }
 
-}
 
- #main-image {
+
+  #main-image {
     width: 100%;
-    height: auto;
-} 
+    height: auto; }
+  }
