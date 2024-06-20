@@ -64,16 +64,18 @@ header {
 
 
 
- #menu {
+  #menu {
     font-size: 150%;
     letter-spacing: 4px;
     list-style-type: none;
     color: #3a1818;
+
 } 
 
- #menu > li {
+  #menu > li {
     margin-bottom: 1em;
-    padding-left: 1rem; 
+    padding-left: 1rem;
+    width: 100%;  
 }
 
  .active {
@@ -181,9 +183,17 @@ iframe {
    img {
      /* background: url('assets/images/hero-image/pop.jpg') no-repeat 
     top center / cover; */
+    width: 100%;
     border-radius: 50%;
-    background-repeat: space; 
-}  
+    }
+    #gallery {
+        width: 50%;
+        background-color: #3a1818;
+        
+    }  
+    #contacts {
+        
+    }
 
 
 /* footer */
