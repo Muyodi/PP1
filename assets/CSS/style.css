@@ -81,6 +81,13 @@ header {
  .active {
     border-bottom: 1px solid #df1212;
 } 
+/*id sign up images */
+#signup {
+     background-image: url('images/hero-image/pop.jpg') no-repeat center center/cover;
+    position:relative 
+
+
+}
 
  nav {
     position: absolute;
@@ -120,16 +127,16 @@ header {
     width: 100%;
     z-index: 0; 
     height: 50%;
-    background: url('/images/hero-image/gym-interior.jpg') no-repeat
-    center center/cover;  
+     background: url('images/hero-image/gym-interior.jpg') no-repeat 
+     center center/cover;   
     position: relative;  
 } 
 .image {
     width: 100%;
-    background: url('/images/hero-image/pop.jpg') no-repeat
-    center center/cover;  
+     background: url('images/hero-image/pop.jpg') no-repeat
+    center center/cover;   
     height: 500px;
-    /* position: relative;  */
+     position: relative;  
 }
 .cover-text {
     display: flex;
@@ -181,8 +188,8 @@ iframe {
     margin: 5px 0;  */
 
    img {
-     /* background: url('assets/images/hero-image/pop.jpg') no-repeat 
-    top center / cover; */
+      background: url('assets/images/hero-image/pop.jpg') no-repeat 
+    top center / cover; 
     width: 100%;
     border-radius: 50%;
     }
@@ -191,9 +198,7 @@ iframe {
         background-color: #3a1818;
         
     }  
-    #contacts {
-        
-    }
+    
 
 
 /* footer */
@@ -277,4 +282,7 @@ iframe {
     #benefits-pysical > div {
         align-self: self-start;
     }
+  }
+  input {
+    color:#df1212;
   }

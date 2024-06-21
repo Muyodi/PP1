@@ -5,28 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="assets/CSS/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <main>
-        <section id="contacts">
-            <div class="your-contacts">
-                <h1>Your Details</h1>
-                <h2>Name:</h2>
-                <hr>
-                <h2>Telephone:</h2>
-                <hr>
-                <h2>Address:</h2>
-                <hr>
-                <h2>Email:</h2>
-                <hr>
-                <h2>Goals:</h2>
-                <hr>
-                <br>
-                <hr>
+    <header>
+
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navigation">
+            <div>
+                <a href="index.html">
+                    <h1 id="Logo">Hate Gyming AND EXERCISING?</h1>
+                </a>
             </div>
-        </section>
-    </main>
+            <!-- <li><a href="service.html">Services</a></li> -->
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html" class="active">signup</a></li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+    
+
+                <!-- <form>
+                    <h1>YOUR DETAILS:</h1>
+                    <label for="name">NAME</label>
+                    <input id="username" type="text">
+                    <label for="password">Password:</label>
+                    <input id="password" type="password">
+                    <input type="submit">
+                </form> -->
+
+
 </body>
 
 </html>
