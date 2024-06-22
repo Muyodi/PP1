@@ -13,9 +13,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(105, 85, 71);
+    color: #3a1818;
     font-family:  sans-serif;
-    background-image: url('/images/hero-image/pop.jpg');
+     background-image: url('/images/hero-image/pop.jpg'); 
      background-size: cover; 
     background-position: center;
 
@@ -25,7 +25,7 @@ body {
 }
 .sign-up-form {
     width: 300px;
-    box-shadow: 0 0 4px 0 rgba(4, 2, 2, 0.3);
+    box-shadow:  #3a1818 rgba;
     background: #ece4e4;
     padding: 2px;
     margin: 8% auto 0;
@@ -76,32 +76,41 @@ hr {
     width: 30px;
 }
 
-h1 {
+  .h1 {
     font-size: 210%;
     font-family: 'Oswald' , sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #320f0f;
+    color: #e53030;
+} 
+h3 {
+    color: #ffff;
+} 
+h2 {
+    color: #065791;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 210%;
 }
 
 
 
-.h1 {
-    background-color: rgb(217, 234, 182);
+ /*.h1 {
+    background-color: rgb(228, 231, 223);
     padding: 0 1rem;
-    position: fixed;
+    position: flex;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 2px #4b2727;
+    box-shadow: 0 3px 2px #221010;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     text-align: center;
 
-}
+} */
 
-header {
-    background-color: rgb(217, 239, 172);
+ header {
+    background-color: rgb(217, 234, 182);
     padding: 2 1rem;
     position: fixed;
     z-index: 100;
@@ -110,37 +119,37 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
-
- header a {
-    text-decoration: rgb(188, 232, 95);
-   color: inherit;
 } 
 
+  header a {
+    text-decoration: rgb(217, 234, 182);
+   color: inherit;
+}  
 
 
-  #menu {
+
+   #menu {
     font-size: 150%;
     letter-spacing: 4px;
     list-style-type: none;
     color: #3a1818;
 
-} 
+}  
 
-  #menu > li {
+    #menu > li {
     margin-bottom: 1em;
     padding-left: 1rem;
-    width: 100%;  
-}
-
- .active {
-    border-bottom: 1px solid #df1212;
+    width: 100%;   
 } 
-/*id sign up images */
-/* #signup {
-     background-image: url('images/hero-image/pop.jpg') no-repeat center center/cover;
-    position:relative  */
 
+ /* .active {
+    border-bottom: 1px solid #df1212; 
+} */
+/*id sign up images */
+
+  /* #signup {
+     background-image: url('images/hero-image/pop.jpg') no-repeat center center/cover;
+    position:relative    */
 
 
 
@@ -317,7 +326,8 @@ iframe {
   .your-contacts {
     background-color: #3a1818;
   }
-  @media  screen and (min-width: 1200px) {
+  
+  @media  screen and (min-width: 992px) {
     #benefits {
         display: flex;
         flex-direction: row;
