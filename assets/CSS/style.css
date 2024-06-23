@@ -266,20 +266,20 @@ iframe {
     }  
     /*main content for signup page*/
 
-    /* main {
-        /* Enlarge main element to push footer down*/
+     main {
+    
         flex: 2 0 auto;
-        /* Add margin at the top to prevent content from being covered by the header */
+    
         margin-top: 47px;
-        /* Enable flex properties for child elements */
+    
         display: flex;
         flex-direction: column;
     } 
     
     /* Form */
      #signup {
-        background-image: url('/assets/images/hero-image/pop.jpg') no-repeat
-        top center / cover;
+        /* background-image: url('/assets/images/hero-image/pop.jpg') no-repeat
+        top center / cover; */
         background-size: cover;
         background-position: 75%;
         padding: 20px 10% 0 10%;
@@ -393,7 +393,7 @@ iframe {
 }
 
 /* tablet and larger screens*/
- /* @media screen and (min-width: 344px) {
+  @media screen and (min-width: 344px) {
     nav {
         display: block;
         position: relative;
@@ -458,4 +458,4 @@ iframe {
   input {
     color:#df1212;
     position: center;
-  } */
+  } 
