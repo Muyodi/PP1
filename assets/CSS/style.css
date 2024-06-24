@@ -26,7 +26,7 @@ body {
 
 .sign-up-form {
     width: 300px;
-    box-shadow: #3a1818 rgba;
+    box-shadow: 0 2px 2px #e82525;
     background: #ece4e4;
     padding: 2px;
     margin: 8% auto 0;
@@ -122,7 +122,7 @@ h2 {
 
 header {
     background-color: rgb(217, 234, 182);
-    padding: 2 1rem;
+    padding: 2px 1rem;
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -219,7 +219,7 @@ main {
 .cover-text {
     display: flex;
     flex-direction: column;
-    font-size: auto;
+     font-size: 120%; 
     justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
@@ -247,9 +247,10 @@ main {
     text-align: center;
 }
 
-iframe {
-    width: 300;
+ iframe {
+    width: 300px;
     height: 100px;
+    
 
 }
 
@@ -329,7 +330,7 @@ main {
 
 .radio-buttons {
     width: 200%;
-    display: fixed;
+    display: flow-root;
     justify-content: space-between;
 }
 
@@ -481,5 +482,5 @@ main {
 
 input {
     color: #df1212;
-    position: center;
+    position: relative;
 }
