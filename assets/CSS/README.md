@@ -1,4 +1,4 @@
-# 
+Hihg gym level.
 
 
  
@@ -7,10 +7,9 @@
 [Click Here To Visit Live Site]( add live link of the project here)
 
 
-## Table Of Contents:
+ Table Of Contents:
 1. [Design & Planning](#design-&-planning)
     * [User Stories](#user-stories)
-    * [Wireframes](#wireframes)
     * [Typography](#typography)
     * [Color Scheme](#color-scheme)
 2. [Features](#features)
@@ -24,64 +23,69 @@
 
 
 
-## Design & Planning:
+ Design & Planning:
+ This project has been designed basing on the knowledge of love running projec and designed 
+ by Edgar Muyodi
 
-### User Stories
-Write your user stories in this section
-### Wireframes
-Attach wireframes in this section
-### Typography
-Explain fonts you've used for your project
-### Colour Scheme
-Screenshoot of the colour scheme for your project
+User Stories
+The project is to give mental strength to the people or users that see exercising or going 
+to gym as a budden and imposiable.
 
-## Features:
-Explain your features on the website,(navigation, pages, links, forms, input fields, CRUD....)
+ Typography
+The typogragy used is a mixture of serif and sans-serif.
 
-## Future features
-Add future features you would like to implement on your site 404 page, confirmation page, login system.....
+ Colour Scheme
+The colors used are basic colors like orange,yellow,blue and brown to bring out the brihgtness
+to get users attention.
 
-## Technologies Used
+Features:
+The website and the links used were directly deployed from the original wedsite of banna beach 
+gym club which is the main gym in tralee. 
+The links of the photos i got from pinterest website to give the great looking at the gallarey
+
+ Technologies Used
 - HTML5 
+The HTML uses technology of git pod and index.html
 - CSS3
- ### Frameworks, Libraries & Programes Used
-- #### [Google fonts](https://fonts.google.com/knowledge)
+The style.css uses technology from git pod of style.css.
+  Frameworks, Libraries & Programes Used
+ [Google fonts](https://fonts.google.com/knowledge)
 Google fonts were used to import the 'Dosis' font into the style.css file which is used on all pages throughout the project
- - #### [Font Awesome](https://fontawesome.com/)
+ [Font Awesome](https://fontawesome.com/)
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
- - #### [Git](https://gitpod.io/)
+ [Git](https://gitpod.io/)
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-  - #### [GitHub](https://github.com/)
+ [GitHub](https://github.com/)
 GitHub is used to store the projects code after being pushed from Git.
- - #### [Balsamic](https://balsamiq.com/wireframes/?gclid=Cj0KCQiA14WdBhD8ARIsANao07g6CkndNmxQPlHP92mM3VQBwb6lbQIg5FPinhmNFxWsAnM7BpA_PukaAldMEALw_wcB)
+ [Balsamic](https://balsamiq.com/wireframes/?gclid=Cj0KCQiA14WdBhD8ARIsANao07g6CkndNmxQPlHP92mM3VQBwb6lbQIg5FPinhmNFxWsAnM7BpA_PukaAldMEALw_wcB)
 
-## Testing
+Testing
 Important part of your README!!!
+The project has been tested on WC3Mark up validation
+Git hub README to tomake sure that it has minumus errores
 
-### Google's Lighthouse Performance
-Screenshots of certain pages and scores (mobile and desktop)
-
-### Browser Compatibility
-Check compatability with different browsers
+Google's Lighthouse Performance 
+On some sreens it shows less still trying to improve on this aspect.
+The project has been tested on diffrent version of screens and it shows on some screens intresting fetures.
 
 
-### Responsiveness
-Screenshots of the responsivness, pick few devices
+ Browser Compatibility
+The project shows on all browsers of diffrent measurements.
 
-### Code Validation
-Validate your code HTML, CSS files display screenshots
+Responsiveness
+The project responds on some devices and others less i am working on improving and
+learning more more on this aspect
 
-### Testing user stories
-Test all your user stories, you an create table 
-User Story |  Test | Pass
---- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-- and attach screenshot
+ Code Validation
+ The project has been validated on WC3 MAKER UP validation website and it passed the validation
+ with minimum errors.
+Validate the HTMLS and CSS files display screenshots
 
-## Bugs
-List of bugs and how did you fix them
+Testing user stories
+The users who really find it difficult to accept the fact that they can change their feelings about 
+not wanting to exercise to gain health benefits
 
-## Deployment
+Deployment
 - Github pages
     - This project was deployed to GitHub Pages using the following steps
       - Log in to GitHub and locate the GitHub Repository
@@ -107,7 +111,12 @@ List of bugs and how did you fix them
       - $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
    - Press Enter. Your local clone will be created.
 
-   ## Credits
-    In this section credit any code, images, text or design that is not custom
+    Credits
+    credit the git hub and favicon plus all websites uploaded to give this project 
+    the final results its whowing.
 
-   ## Acknowledgments
+   Acknowledgments
+   Thanks to Marko(TEACHER)
+   Sherly(tutors)
+   Slack and fellow students for their help given to me since i didnt have any knowlegd about coding 
+   and computer skills.
