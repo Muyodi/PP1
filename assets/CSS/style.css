@@ -342,8 +342,13 @@ label {
     color: #fafafa;
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: tablets and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
 
     /* Form */
@@ -409,10 +414,7 @@ label {
     display: flex;
 }
 
-/* tablet and larger screens*/
-@media screen and (min-width: 344px) {
-    nav {
-        display: block;
+/* tablet and larger scree
         position: relative;
         box-shadow: none;
         width: fit-content;
@@ -432,8 +434,35 @@ label {
     width: 300px;
     right: 50px;
 }
+/* for media sizes from 950px wide and down*/
+@media screen and (min-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 0;
+        line-height: 25px;
+    }
+    #cover-text{
+        left: 0;
 
-@media screen and (min-width: 768px) {
+    }
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: auto;
+    }
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
 
     #menu a:hover {
         border-bottom: 2px solid #3a3a3a;
@@ -451,8 +480,8 @@ label {
     background-color: #3a1818;
 }
 
-@media screen and (min-width: 992px) {
-    #benefits {
+ @media screen and (min-width: 992px) {
+    #benefits { 
         display: flex;
         flex-direction: row;
     }
@@ -480,7 +509,4 @@ label {
     }
 }
 
-input {
-    color: #df1212;
-    position: relative;
-}
+
