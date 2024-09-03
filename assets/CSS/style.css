@@ -4,7 +4,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 
@@ -14,14 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a1818;
-    font-family: sans-serif;
-    background-image: url('/images/hero-image/pop.jpg');
-    background-size: cover;
-    background-position: center;
-
-
-
-
+    font-family: 'robot Mono', sans-serif;
+    background: url('/images/hero-image/pop.jpg') center center/cover no-repeat;
 }
 
 .sign-up-form {
@@ -72,7 +66,8 @@ button {
 }
 
 a {
-    text-decoration: #065791;
+    text-decoration: none;
+    color: #065791;
 }
 
 hr {
@@ -85,42 +80,35 @@ hr {
     width: 30px;
 }
 
-.h1 {
-    font-size: 210%;
-    font-family: 'Oswald', sans-serif;
+.h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
+
+}
+
+h1 {
+    font-size: 210%;
+    font-family: 'Oswald', sans-serif;
     color: #e53030;
+    background-color: rgb(228, 231, 223);
+    padding: 0 1rem;
+    box-shadow: 0 3px 2px #221010;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+}
+
+h2 {
+    color: #065791;
+    font-size: 210%;
 }
 
 h3 {
     color: #ffff;
 }
 
-h2 {
-    color: #065791;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 210%;
-}
-
-
-
-/*.h1 {
-    background-color: rgb(228, 231, 223);
-    padding: 0 1rem;
-    position: flex;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 3px 2px #221010;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    text-align: center;
-
-} */
-
-header {
+   header { 
     background-color: rgb(217, 234, 182);
     padding: 2px 1rem;
     position: fixed;
@@ -130,10 +118,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
+} 
 
-header a {
-    text-decoration: rgb(217, 234, 182);
+ header a {
+    text-decoration: none;
     color: inherit;
 }
 
@@ -144,25 +132,24 @@ header a {
     letter-spacing: 4px;
     list-style-type: none;
     color: #3a1818;
+    display: flex;
+    flex-direction: column;
 
-}
+} 
 
-#menu>li {
+ #menu li {
     margin-bottom: 1em;
     padding-left: 1rem;
     width: 100%;
 }
 
-/* .active {
+#menu a:hover {
+    border-bottom: 1px solid #df1212;
+}
+
+.active {
     border-bottom: 1px solid #df1212; 
-} */
-/*id sign up images */
-
-/* #signup {
-     background-image: url('images/hero-image/pop.jpg') no-repeat center center/cover;
-    position:relative    */
-
-
+}
 
 nav {
     position: absolute;
@@ -171,11 +158,219 @@ nav {
     left: 0;
     padding: 0 2rem;
     box-shadow: 0 2px 2px #ab0505;
-    display: none;
     top: 100%;
+    display: none;
 }
 
-.navigation {
+.main-images, .images {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-images {
+     background: url('/images/hero-image/gym-interior.jpg');
+     height: 1000px;
+    
+}
+
+.images {
+    background: url('/images/hero-image/pop.jpg');
+    height: 500px;
+}
+
+.cover-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 120%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 50px;
+    margin: 20px;
+}
+
+.titles {
+    padding: 15px 5px;
+    font-size: 2rem;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.gym-time {
+    text-align: center
+}
+
+iframe {
+    width: 300px;
+    height: 100px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#gallery {
+    width: 50%;
+    background-color: #3a1818;
+}
+
+/* Signup Page Main Content */
+main {
+    flex: 2 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+#signup {
+    background: url('/assets/images/hero-image/pop.jpg') center center/cover no-repeat;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px 0 10px;
+    padding: 0 5px;
+    color: #fafafa;
+    background: transparent;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+}
+
+/* Social Networks */
+.social-networks {
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #e51111;
+}
+
+/* Tablets and Larger (1200px and up) */
+@media screen and (min-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+}
+
+/* Larger Screen (992px and up) */
+@media screen and (min-width: 992px) {
+    #benefits {
+        display: flex;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefit-image {
+        order: 0;
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental > div,
+    #benefits-physical > div {
+        align-self: flex-start;
+    }
+}
+
+/* For Media Sizes from 950px Wide and Down */
+@media screen and (min-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        line-height: 25px;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #main-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.your-contacts {
+    background-color: #3a1818;
+}
+
+
+ .navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -191,15 +386,17 @@ nav {
     display: none;
 }
 
-/* main */
+ 
 main {
     background-color: rgb(21, 105, 105);
 
-    /* width: 100%; 
-    height: 1000px;    */
-}
+     width: 100%; 
+    height: 1000px;    
+} 
 
-.main-image {
+
+
+.main-images {
     width: 100%;
     z-index: 0;
     height: 50%;
@@ -213,7 +410,7 @@ main {
     height: 1000px;
 }
 
-.image {
+.images {
     width: 100%;
     background: url('/images/hero-image/pop.jpg') center center/cover;
     height: 500px;
@@ -258,18 +455,21 @@ main {
 
 }
 
-/* #cover-text > h2, #cover-text > h3 {
-    color: rgb(202, 72, 12);  */
+ #cover-text > h2, #cover-text > h3 {
+    color: rgb(202, 72, 12);
+ }
 
-/* #physical-benefits > div,
+ #physical-benefits > div,
 #mental-benefits > div {
     line-height: 20px;
-    margin-bottom: 20px;  */
+    margin-bottom: 20px;
+}
 
-/* #benefits p {
-    padding: 0 20px; */
+ #benefits p {
+    padding: 0 20px;
+ }
 
-/* #benefits hr {
+ #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;  */
 
@@ -299,8 +499,8 @@ main {
 
 /* Form */
 #signup {
-    /* background-image: url('/assets/images/hero-image/pop.jpg') no-repeat
-        top center / cover; */
+     background-image: url('/assets/images/hero-image/pop.jpg') no-repeat
+        top center / cover; 
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -379,26 +579,6 @@ label {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer */
 .social-networks {
     text-align: center;
     padding: 30px 0;
@@ -418,7 +598,7 @@ label {
     display: flex;
 }
 
-/* tablet and larger scree
+ tablet and larger scree {
         position: relative;
         box-shadow: none;
         width: fit-content;
@@ -484,33 +664,4 @@ label {
     background-color: #3a1818;
 }
 
- @media screen and (min-width: 992px) {
-    #benefits { 
-        display: flex;
-        flex-direction: row;
-    }
-
-    #benefits>div {
-        flex: 1;
-
-    }
-
-    #benefit-image {
-        order: 0;
-    }
-
-    #benefits-mental {
-        order: 1;
-    }
-
-    #benefits-mental>div {
-        align-self: self-start;
-
-    }
-
-    #benefits-pysical>div {
-        align-self: self-start;
-    }
-}
-
-
+ 
